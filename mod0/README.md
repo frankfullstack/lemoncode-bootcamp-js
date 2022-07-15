@@ -4,7 +4,7 @@
 
 En esta práctica se incluye el HTML y el CSS con un listado de hoteles incluyendo las imágenes y la información de los hoteles tales como el nombre, descripción, teléfono de contacto, y valoración.
 
-![Listado de hoteles](./img/hotels-list.png)
+![Listado de hoteles](img/hotels-list.png)
 
 
 La estructura de directorios es la siguiente:

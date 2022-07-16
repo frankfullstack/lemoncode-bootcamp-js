@@ -1,0 +1,71 @@
+body {
+    height:100vh;
+}
+
+.container {
+    margin: 2rem auto;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .image img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 4px 4px #c3c3c3
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.name-input,
+.lastname-input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+}
+
+
+.name-input {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 1rem .5rem;
+    margin: .5rem 0;
+    font-size: 1.05rem;
+}
+
+.actions {
+    width: 60%;
+}
+
+button.save-button {
+    padding: 1rem .5rem;
+    width: 100%;
+    background: #006064;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+button.save-button:hover, button.save-button {
+    background: #00838f;
+}
+
+button.save-button:active {
+    background: #0097a7;
+}

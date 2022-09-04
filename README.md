@@ -14,7 +14,7 @@ https://github.com/frankfullstack/lemoncode-bootcamp-js/tree/master/mod2
 
 ## Módulo 3 - Operadores y flujos de control
 
-Pendiente de envío
+https://github.com/frankfullstack/lemoncode-bootcamp-js/tree/master/mod3
 
 ## Módulo 4 - Funciones y eventos
 

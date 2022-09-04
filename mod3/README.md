@@ -6,7 +6,6 @@ En esta práctica se incluye el HTML y el archivo de JavaScript, para realizar l
 
 La estructura de directorios es la siguiente:
 
-
 ```
 src/
 ├─ js/                                  # Scripts de JavaScript

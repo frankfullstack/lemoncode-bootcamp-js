@@ -130,6 +130,7 @@ function getTotalVat(product) {
 }
 
 document.write("El precio total del producto es: ", getTotalVat(product));
+document.write("</br>")
 
 function printProductPrice(product) {
     const subtotal = getVat(product);
@@ -147,3 +148,33 @@ printProductPrice(product);
  * Ejercicio 3: Calcular sueldo neto en nómina
  */
 
+const empleado = {
+    bruto: 14500,
+    hijos: 2,
+    pagas: 14,
+};
+
+let retencion = 0;
+
+// Actualizado a fecha: 2021
+
+if (empleado.bruto < 12450 ) {
+    retencion = .19;
+} else if (empleado.bruto >= 12450 && empleado.bruto < 20200 ) {
+    retencion = .24;
+} else if (empleado.bruto >= 20200 && empleado.bruto < 35200 ) {
+    retencion = .30;
+} else if (empleado.bruto >= 35200 && empleado.bruto < 60000 ) {
+    retencion = .37;
+} else {
+    retencion = .45;
+}
+
+if (empleado.hijos > 0) retencion -= .02
+
+let netoNominaAnual = empleado.bruto - (empleado.bruto * retencion);
+
+let netoNominaMensual = netoNominaAnual / empleado.pagas;
+
+document.write("Sueldo neto en n&oacute;mina: " + netoNominaMensual.toFixed(2) + " EUR");
+document.write("</br>")

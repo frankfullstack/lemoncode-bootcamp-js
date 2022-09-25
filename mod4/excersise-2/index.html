@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones y Eventos - Laboratorio Calculadora Extendida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="calculator__container">
+        <div class="calculator__title">Calculadora B&aacute;sica</div>
+        <div class="calculator__content">
+            <div class="operators">
+                <input type="text" class="operator operator-1" oninput="validateNumber(event)" />
+                <input type="text" class="operator operator-2" oninput="validateNumber(event)" />
+            </div>
+            <div class="operations">
+                <div class="operation sum"><button type="button">+</button></div>
+                <div class="operation subtract"><button type="button">-</button></div>
+                <div class="operation multiply"><button type="button">*</button></div>
+                <div class="operation divide"><button type="button">/</button></div>
+            </div>
+        </div>
+        <div class="result__container">
+            <div class="result hidden">
+                <span class="result__title">Result</span>
+                <span class="result__value"></span>
+            </div>
+            <div class="result-error hidden">
+                <span class="result-error__title">Error</span>
+                <span class="result-error__message"></span>
+            </div>
+        </div>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

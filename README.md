@@ -18,7 +18,7 @@ https://github.com/frankfullstack/lemoncode-bootcamp-js/tree/master/mod3
 
 ## Módulo 4 - Funciones y eventos
 
-Pendiente de envío
+https://github.com/frankfullstack/lemoncode-bootcamp-js/tree/master/mod4
 
 ## Módulo 5 - Arrays y bucles
 
